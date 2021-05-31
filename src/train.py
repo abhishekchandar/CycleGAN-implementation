@@ -135,7 +135,7 @@ def main():
             util.save_checkpoint(gen_P, opt_gen, filename=config.CHECKPOINT_GEN_P)
             util.save_checkpoint(gen_M, opt_gen, filename=config.CHECKPOINT_GEN_M)
             util.save_checkpoint(disc_P, opt_disc, filename=config.CHECKPOINT_CRITIC_P)
-            util.save_checkpoint(disc_M, opt_disc, filename=config.CHECKPOINT_CRITIC_Z)
+            util.save_checkpoint(disc_M, opt_disc, filename=config.CHECKPOINT_CRITIC_M)
 
 if __name__ == "__main__":
     main()

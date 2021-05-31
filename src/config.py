@@ -10,13 +10,13 @@ LEARNING_RATE = 2e-4
 LAMBDA_IDENTITY = 0.0
 LAMBDA_CYCLE = 10
 NUM_WORKERS = 4
-NUM_EPOCHS = 200
-LOAD_MODEL = False
+NUM_EPOCHS = 20
+LOAD_MODEL = False #False if new True if loading checkpoint
 SAVE_MODEL = True
-CHECKPOINT_GEN_H = "genp.pth.tar"
-CHECKPOINT_GEN_Z = "genm.pth.tar"
-CHECKPOINT_CRITIC_H = "criticp.pth.tar"
-CHECKPOINT_CRITIC_Z = "criticm.pth.tar"
+CHECKPOINT_GEN_P = "genp.pth.tar"
+CHECKPOINT_GEN_M = "genm.pth.tar"
+CHECKPOINT_CRITIC_P = "criticp.pth.tar"
+CHECKPOINT_CRITIC_M = "criticm.pth.tar"
 
 transforms = A.Compose(
     [
